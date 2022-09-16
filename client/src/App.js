@@ -32,7 +32,7 @@ const App = () => {
   const onSubmitFormHandler = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/predict", {
+      const response = await axios.post("/api/predict", {
         sepal_length: sliderSepalLength,
         sepal_width: sliderSepalWidth,
         petal_length: sliderPetalLength,
