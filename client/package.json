@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "proxy": "http://localhost:5000",
+  "proxy": "https://protected-river-82415.herokuapp.com/",
   "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.3.2",
